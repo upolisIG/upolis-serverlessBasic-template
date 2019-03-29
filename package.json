@@ -1,0 +1,26 @@
+{
+  "name": "upolis-function-template",
+  "version": "0.1.0",
+  "description": "TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.",
+  "main": "handler.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/**/*.js",
+    "deploy": "sls deploy --stage dev",
+    "deploy-qa": "sls deploy --stage qa",
+    "deploy-prod": "sls deploy --stage prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.432.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "serverless-http": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "nock": "^10.0.6"
+  }
+}
