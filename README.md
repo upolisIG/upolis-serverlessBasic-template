@@ -34,7 +34,7 @@ Guide developers through getting your code up and running on their own system. I
 
 # Build, Test and Deploy
 
-``
+```
 npm install
 
 npm test        ** Test package function
