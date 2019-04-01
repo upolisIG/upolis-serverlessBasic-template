@@ -75,7 +75,7 @@ provider:
     restApiId:
       'Fn::ImportValue': upolis-api-ApiID
     restApiResources:
-      /upolis/${self:custom.domain}:
+      /upolis/XXX: # NOTE: Replace by the custom domain
         'Fn::ImportValue': upolis-api-${self:custom.domain}
 
 # * Service wide environment variables
