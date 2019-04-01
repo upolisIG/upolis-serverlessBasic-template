@@ -30,6 +30,7 @@ serverless install --url https://github.com/upolisIG/upolis-serverlessBasic-temp
 |[Serverless HTTP](https://www.npmjs.com/package/serverless-http)|npm install --save serverless-http|
 |[AWS](https://aws.amazon.com/es/sdk-for-node-js/)|npm install --save aws-sdk|
 |[Body Parser](https://www.npmjs.com/package/body-parser)|npm install --save body-parser|
+|[HTTP Status Codes](https://www.npmjs.com/package/http-status-codes)|npm install --save http-status-codes|
 
 ### Software dependencies (Development)
 
@@ -45,9 +46,9 @@ serverless install --url https://github.com/upolisIG/upolis-serverlessBasic-temp
 ```
 npm install
 
-npm test        ** Test package function
+npm test        # Test package function
 
-npm deploy      ** Deploy in development stage
-npm deploy-qa   ** Deploy in qa stage
-npm deploy-prod ** Deploy in production stage
+npm deploy      # Deploy in development stage
+npm deploy-qa   # Deploy in qa stage
+npm deploy-prod # Deploy in production stage
 ```
