@@ -46,9 +46,9 @@ serverless install --url https://github.com/upolisIG/upolis-serverlessBasic-temp
 ```
 npm install
 
-npm test        # Test package function
+npm test                   # Test package function
 
-npm deploy      # Deploy in development stage
-npm deploy-qa   # Deploy in qa stage
-npm deploy-prod # Deploy in production stage
+npm run-script deploy      # Deploy in development stage
+npm run-script deploy-qa   # Deploy in qa stage
+npm run-script deploy-prod # Deploy in production stage
 ```
