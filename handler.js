@@ -3,7 +3,7 @@
 const serverless = require('serverless-http');
 const express = require('express');
 const HttpStatus = require("http-status-codes");
-const app = express()
+const app = express();
 const validate = require("./validate").validate;
 
 app.get('/', function (req, res) {
