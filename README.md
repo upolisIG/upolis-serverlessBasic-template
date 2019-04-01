@@ -14,6 +14,14 @@ Guide developers through getting your code up and running on their own system. I
 2. Serverless CLI v1.9.0 or later. You can run npm install -g serverless to install it.
 3. An AWS account. Set-up your provider credentials following [these instructions](https://serverless.com/framework/docs/providers/aws/guide/credentials/).
 
+### Install
+
+Change the parameter serviceName to the Lambda function's name:
+
+```
+serverless install --url https://github.com/upolisIG/upolis-serverlessBasic-template --name serviceName
+```
+
 ### Software dependencies (Production)
 
 |Dependency|Install|
